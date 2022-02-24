@@ -10,35 +10,39 @@
 <body>
     
 
-    <form action="https://www.rtc.edu" method="get">
+    <form id="frm-in-class">
+        <p>In class example</p>
+        <p>No Action</p>
         <label for="fName">First Name: </label>
         <input type="text" id="fName" name="fName"><br>
         <label for="lName">Last Name: </label>
         <input type="text" id="lName"><br>
-        
+        <br>
         <p>School Year</p>
         <label for="rBtn1">Year 1</label>
         <input type="radio" id="rBtn1" name="group_1">
         <br><label for="rBtn1">Year 2</label>
         <input type="radio" id="rBtn1" name="group_1">
         <input type="submit" value="Send">
-
+        <br>
         <p>Ethnicity</p><br>
         <label>Asian</label>
         <input type="checkbox" name="chkAsian"><br>
         <label>White</label>
         <input type="checkbox" name="chkWhite"><br>
-
+        <br>
+        <label></label>
         <input type="time">
         <input type="button" value="Get Value" id="btnDisplay">
     </form>
 
-    <script src="js/js.js"></script>
 
-</body>
-</html>
-
-        <!-- <table>
+    <form>
+        
+        <table>
+            <tr>
+                <td>Pre made Example</td>
+            </tr>
             <tr>
                 <td>
                     <label for="fName">First Name: </label>
@@ -50,10 +54,40 @@
             <tr><td><label for="lName">Last Name: </label></td><td><input type="text" name="lName"></td></tr>
             <tr><td><label for="email">Email </label></td><td><input type="text" name="email"></td></tr>
             <tr>
-                <td><label>Game Developer:</label></td><td><input type="time"></td>
+                <td><label>Game Developer:</label></td><td><input type="checkbox"></td>
             </tr>
             <tr>
                 <td><input type="reset" value="Reset"></td>
                 <td><input type="submit" value="Submit"></td>
             </tr>
-        </table> -->
+        </table>
+    </form>
+
+    <form>
+        
+        <table>
+           <tr>
+               <td><label>Value 1</label></td><br>
+               <td><input placeholder="value 1" id="value-1"></td>
+           </tr>
+           <tr>
+            <td><label>Value 2</label></td><br>
+            <td><input placeholder="value 2" id="value-2"></td>
+        </tr>
+        <tr>
+            <td><label>Result</label></td><br>
+            <td><input id="txtDisplay" readonly></td>
+        </tr>
+        <tr>
+            <td><input type="reset"></td><br>
+            <td><input type="button" id="btnAdd" value="Add"></td>
+        </tr>
+        </table>
+    </form>
+
+
+    <script src="js/js.js"></script>
+
+</body>
+</html>
+

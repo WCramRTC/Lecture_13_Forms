@@ -9,6 +9,7 @@ html {
 }
 
 table {
+    min-width: 400px;
     width: 50%;
     margin: 0 auto;
     display: block;
@@ -23,4 +24,12 @@ table td {
 
 input[type="submit"], input[type="button"] {
     padding: 10px;
+}
+
+#frm-in-class {
+    border: 1px solid black;
+    width: 50%;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
 }
